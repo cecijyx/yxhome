@@ -1,3 +1,4 @@
+all:
 python ./jemdoc.py -c custom.conf -o ../ index.jemdoc
 python ./jemdoc.py -o ../ biography.jemdoc
 python ./jemdoc.py -o ../ news.jemdoc
